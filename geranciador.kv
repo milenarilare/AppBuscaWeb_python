@@ -1,0 +1,16 @@
+<FirstLayout>:
+<Menu>:
+    BoxLayout:
+        orientation:'vertical'
+        padding:200
+        spacing:50
+        canvas:
+            Color:
+                rgba:1,1,1,1
+            Rectangle:
+                size:self.size
+                pos:self.pos
+
+        Botao:
+             text:'Sair'
+             on_release:root.confirmacao()
